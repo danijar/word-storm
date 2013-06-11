@@ -1,0 +1,18 @@
+body{ background:#06f; }
+
+header{ z-index:1; }
+header h1{ position:relative; left:0; }
+
+section{ position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; width:80em; height:35em; } body{ position:static; }
+#welcome, #login, #info{ position:absolute; font-size:2em; border-radius:.2em; }
+#welcome{ top:0; left:0; width:65%; height:100%; background:url('pic/image.jpg') no-repeat; box-shadow:inset 0 .5em 2em rgba(255,255,255,.8), 0 2px 1px rgba(0,0,0,.2); } #welcome:after{ content:''; position:absolute; border-radius:1em; height:100%; width:100%; box-shadow:0 0 128em rgba(255,255,255,.35); }
+#login, #info{ right:0; width:33%; background:url('pic/bg.gif') repeat; box-shadow:inset 0 3em 6em rgba(0,0,0,.08), 0 2px 1px rgba(0,0,0,.2); }
+#login{ top:0; height:52%; }
+#info{ bottom:0; height:43.5%; }
+section > span{ position:absolute; bottom:-2em; color:rgba(255,255,255,.2); width:100%; text-align:center; }
+
+h2{ position:absolute; bottom:0; left:0; margin:1em; color:#fff; text-shadow:0 0 .2em #000; }
+
+input[type="email"], input[type="password"]{ display:block; font-size:1em; width:83.5%; padding:.2em; margin:6%; border:1px solid #e5e5e5; border-radius:.1em; box-shadow:inset 0 0 .4em rgba(0,0,0,.15), 0 1px 0 #fff; }
+input[type="submit"]{ display:block; width:61.8%; margin:1.6em auto 0; font-size:.7em; height:2.5em; border:none; color:#fff; font-weight:bold; text-shadow:-1px -1px 0 rgba(0,0,0,.4); border-radius:.5em; background:#06f; background:-moz-linear-gradient(#3be, #06f); background:-webkit-linear-gradient(#3be, #06f); background:linear-gradient(#3be, #06f); cursor:pointer; }
+p, ul{ font-size:.9em; color:#333; margin:.5em; } li{ margin:0 0 .25em 1em; }
