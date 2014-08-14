@@ -1,16 +1,18 @@
 <?php
 
-// development
-//error_reporting(E_ALL);
-//ini_set('display_errors', 1);
+// Development
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 
-// include
+// Include
 include 'model.php';
 
-// post requests
+// Post requests
 include 'action.php';
 
-// load view
+// Load view
 header('Content-Type: text/html; charset=utf-8');
-if(getUser()) include 'view/index.php';
-else include 'view/public.php';
+if (getUser())
+	include 'view/index.php';
+else
+	include 'view/public.php';

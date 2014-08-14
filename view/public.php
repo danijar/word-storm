@@ -31,7 +31,7 @@
 			<li>Save your Lists for later</li>
 		</ul>
 	</div>
-	<span>Wordstorm • Danijar Hafner • 2013</span>
+	<a href="http://github.com/danijar/word-storm" target="_blank">Wordstorm is written by Danijar Hafner and available as Open Source</a>
 </section>
 
 </body>
